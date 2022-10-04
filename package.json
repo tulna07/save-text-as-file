@@ -1,0 +1,19 @@
+{
+  "name": "save-text-as-file",
+  "version": "1.0.0",
+  "description": "save-text-as-file",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "keywords": [
+    "typescript",
+    "course"
+  ],
+  "author": "Liam Le",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
