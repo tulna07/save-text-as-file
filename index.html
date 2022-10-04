@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Save Text as File</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Save Text as File</h1>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <div class="file-options">
+        <div class="option file-name">
+          <label>File name</label>
+          <input type="text" placeholder="Enter file name" />
+        </div>
+        <div class="option sav-as">
+          <label>Save as</label>
+          <div class="select-menu">
+            <select>
+              <option value="">Text File (.txt)</option>
+              <option value="">JavaScript File (.js)</option>
+              <option value="">TypeScript File (.ts)</option>
+              <option value="">HTML File (.html)</option>
+              <option value="">SVG File (.svg)</option>
+              <option value="">Doc File (.doc)</option>
+              <option value="">PPT File (.ppt)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <button class="btn-save">Save As Text File</button>
+    </div>
+  </body>
+</html>

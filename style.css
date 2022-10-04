@@ -1,0 +1,84 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background-color: #017acb;
+
+  font-size: 17px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 450px;
+  padding: 10px 25px 40px;
+  background-color: #fff;
+  border-radius: 7px;
+}
+
+.wrapper h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.wrapper :where(textarea, input, select, button) {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.wrapper textarea {
+  height: 200px;
+  resize: none;
+  padding: 8px 13px;
+  border: 1px solid #ccc;
+}
+
+.wrapper .file-options {
+  margin-top: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.file-options .option {
+  width: calc(100% / 2 - 8px);
+}
+
+.option :where(input, .select-menu) {
+  height: 40px;
+  padding: 0 15px;
+  margin-top: 6px;
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+}
+
+.option .select-menu select {
+  height: 100%;
+  background: none;
+}
+
+.wrapper .btn-save {
+  margin-top: 20px;
+  padding: 16px 0;
+  cursor: pointer;
+  color: #fff;
+  background-color: #017acb;
+
+  transition: background-color 0.2s;
+}
+
+.wrapper .btn-save:hover {
+  background-color: #0061a1;
+}
