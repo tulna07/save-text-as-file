@@ -4,6 +4,8 @@
   "description": "save-text-as-file",
   "main": "app.js",
   "scripts": {
+    "build": "tsc && npm run postbuild",
+    "postbuild": "cp ./index.html ./dist/",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "lite-server"
   },
